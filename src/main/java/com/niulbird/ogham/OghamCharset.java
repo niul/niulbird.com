@@ -1,5 +1,11 @@
 package com.niulbird.ogham;
 
+/**
+ * Ogham Charset. Contains mapping for alpha characters to Ogham characters.
+ * 
+ * @author nbird
+ *
+ */
 public enum OghamCharset {
 
 	BEITH       ("B",  '\u1681'),
