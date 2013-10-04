@@ -35,7 +35,7 @@ public class OghamTest {
 		try {
 			PrintStream ps = new PrintStream(System.out, true, "UTF-8");
 			
-			String input = "Cillian Michael Bird";
+			String input = "supercalifragilisticexpialidocious";
 		
 			String result1 = Ogham.getOgham(input);
 			ps.println(input +": [" + result1 + "]");
