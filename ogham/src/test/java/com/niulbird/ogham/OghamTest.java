@@ -1,10 +1,9 @@
 package com.niulbird.ogham;
 
-import static org.junit.Assert.*;
-
 import java.io.PrintStream;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class OghamTest {
 
