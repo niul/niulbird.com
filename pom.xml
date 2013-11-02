@@ -9,5 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>ogham</module>
+    <module>utils</module>
   </modules>
 </project>

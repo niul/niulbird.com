@@ -4,6 +4,8 @@
 
 Description: 	Set of utility libraries including:
 					- Ogham Converter
+					- XML Utilities
+					- JUnit Utilities
 				
 Author:			Niul Bird
 Creation Date:	10/02/2013
