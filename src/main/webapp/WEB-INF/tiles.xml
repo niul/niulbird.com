@@ -1,0 +1,39 @@
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+    <!-- Main Page -->
+    <definition name="mainTemplate" template="/WEB-INF/views/mainTemplate.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/includes/header.jsp" />
+        <put-attribute name="banner" value="/WEB-INF/views/includes/banner.jsp" />
+        <put-attribute name="content"  value="content" />
+        <put-attribute name="footer" value="/WEB-INF/views/includes/footer.jsp" />
+    </definition>
+    
+    <!-- Left Panel -->
+    <definition name="leftPanelTemplate" template="/WEB-INF/views/leftPanelTemplate.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/includes/header.jsp" />
+        <put-attribute name="leftPanel" value="/WEB-INF/views/includes/leftPanel.jsp" />
+        <put-attribute name="content"  value="content" />
+        <put-attribute name="footer" value="/WEB-INF/views/includes/footer.jsp" />
+    </definition>
+
+    <!-- application -->
+    <definition name="home"  extends="mainTemplate">
+        <put-attribute name="content" value="/WEB-INF/views/content/index.jsp"/>
+    </definition>
+
+    <definition name="contact"  extends="leftPanelTemplate">
+        <put-attribute name="content" value="/WEB-INF/views/content/contact.jsp"/>
+    </definition>
+
+    <definition name="contact_success"  extends="leftPanelTemplate">
+        <put-attribute name="content" value="/WEB-INF/views/content/contact_success.jsp"/>
+    </definition>
+	
+	<definition name="page_not_found"  extends="leftPanelTemplate">
+        <put-attribute name="content" value="/WEB-INF/views/content/page_not_found.jsp"/>
+    </definition>
+
+</tiles-definitions>

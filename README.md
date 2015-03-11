@@ -2,18 +2,14 @@
 = niulbird.com =
 ================
 
-Description: 	Set of utility libraries including:
-					- Ogham Converter
-					- XML Utilities
-					- JUnit Utilities
+Description: 	Web site for niulbird.com
 				
 Author:			Niul Bird
-Creation Date:	10/02/2013
+Creation Date:	03/10/2015
 
 ================================================================================
 
 Revision:		v1.0
-Changes:		Initial version. Added support for the following:
-					- Ogham Converter
+Changes:		Initial version. Basic template.
 
 ================================================================================
